@@ -116,6 +116,78 @@
 			
 			<li class="flex-item flex-item-audio-technica">
 				<div class="product-img product-img-audio-technica">
+					<img src="./images/audio-technica/COR150PK.jpg" alt="Pink Earphones" >
+				</div> <!-- End product-img -->
+				<div class="product-title product-title-audio-technica">
+					<h2>AudioTechnica Core 150 In-Ear Headphones (Pink)</h2>
+				</div> <!-- End product-title -->
+				<div class="product-bullets product-bullets-audio-technica">
+					<ul>
+						<li>Full, textured bass with immersive sound and excellent detail resolution</li>
+						<li>Easy-traveling audio performance with cord-wrap included</li>
+						<li>In-ear (canal-style) headphones</li>
+					</ul>
+				</div> <!-- End product-bullets -->
+				<div class="buy-button">
+					<svg class="buy-button-svg">
+						<a xlink:href="http://www.amazon.com/Audio-Technica-ATHCOR150PK--Ear-Headphones/dp/B00BIDHA6U/ref=sr_1_1?m=A2THIGJ83VMAAL&s=merchant-items&ie=UTF8&qid=1462024387&sr=1-1&keywords=pink">
+							<rect width="175" height="30" x="10" y="0" class="svg-rect"/>
+							<text x="30" y="20" class="svg-text">Buy on Amazon >></text>
+						</a>
+					</svg>
+				</div> <!-- End buy-button -->
+			</li>
+			
+			<li class="flex-item flex-item-audio-technica">
+				<div class="product-img product-img-audio-technica">
+					<img src="./images/audio-technica/CLR100LG.jpg" alt="Lime Green Earphones" >
+				</div> <!-- End product-img -->
+				<div class="product-title product-title-audio-technica">
+					<h2>AudioTechnica Clear 100 In-Ear Headphones (Lime Green)</h2>
+				</div> <!-- End product-title -->
+				<div class="product-bullets product-bullets-audio-technica">
+					<ul>
+						<li>Crystal-clear sound and excellent detail resolution</li>
+						<li>Easy-traveling audio performance with cord-wrap included</li>
+						<li>In-ear (canal-style) headphones</li>
+					</ul>
+				</div> <!-- End product-bullets -->
+				<div class="buy-button">
+					<svg class="buy-button-svg">
+						<a xlink:href="http://www.amazon.com/Audio-Technica-ATHCLR100LG-Headphones-Green/dp/B00BBDL3QK/ref=sr_1_3?m=A2THIGJ83VMAAL&s=merchant-items&ie=UTF8&qid=1462023767&sr=1-3&refinements=p_4%3AAudio-Technica">
+							<rect width="175" height="30" x="10" y="0" class="svg-rect"/>
+							<text x="30" y="20" class="svg-text">Buy on Amazon >></text>
+						</a>
+					</svg>
+				</div> <!-- End buy-button -->
+			</li>
+			
+			<li class="flex-item flex-item-audio-technica">
+				<div class="product-img product-img-audio-technica">
+					<img src="./images/audio-technica/CLR100OR.jpg" alt="Orange Earphones" >
+				</div> <!-- End product-img -->
+				<div class="product-title product-title-audio-technica">
+					<h2>AudioTechnica Clear 100 In-Ear Headphones (Orange)</h2>
+				</div> <!-- End product-title -->
+				<div class="product-bullets product-bullets-audio-technica">
+					<ul>
+						<li>Crystal-clear sound and excellent detail resolution</li>
+						<li>Easy-traveling audio performance with cord-wrap included</li>
+						<li>In-ear (canal-style) headphones</li>
+					</ul>
+				</div> <!-- End product-bullets -->
+				<div class="buy-button">
+					<svg class="buy-button-svg">
+						<a xlink:href="http://www.amazon.com/Audio-Technica-ATHCLR100OR-Headphones-Orange/dp/B00BBDKTS8/ref=sr_1_2?m=A2THIGJ83VMAAL&s=merchant-items&ie=UTF8&qid=1462023585&sr=1-2&keywords=orange">
+							<rect width="175" height="30" x="10" y="0" class="svg-rect"/>
+							<text x="30" y="20" class="svg-text">Buy on Amazon >></text>
+						</a>
+					</svg>
+				</div> <!-- End buy-button -->
+			</li>			
+			
+			<li class="flex-item flex-item-audio-technica">
+				<div class="product-img product-img-audio-technica">
 					<img src="./images/audio-technica/AX1iSBK2.jpg" alt="Black Headphone" >
 				</div> <!-- End product-img -->
 				<div class="product-title product-title-audio-technica">
@@ -236,11 +308,6 @@
 			
 			<li class="flex-item-small"></li>
 			
-			<li class="flex-item-large"></li>
-			
-			<li class="flex-item-large"></li>
-			
-			<li class="flex-item-large"></li>
 		</ul>
 	
 	</div> <!-- End page-wrap -->

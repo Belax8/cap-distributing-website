@@ -1,2 +1,2 @@
-# cap-distributing-website
-Source code for capdistributing.com
+# CAP Distributing Website
+Source code for [CAP Distributing](www.capdistributing.com)

@@ -1,0 +1,215 @@
+
+ 
+		/* LANDSCAPE */
+		
+@media (min-width: 401px) and (max-width: 800px) {
+	
+	/* HEADER LOGO */
+	.page-wrap {
+		width: 90%;
+	}
+	.header {
+		margin: 0 auto;
+		width: 300px;
+		height: auto;
+	}
+	.div-header {
+		height: auto;
+	}
+	
+	
+	/* NAVIGATION */
+	nav ul li:hover > ul {
+		display: none;
+	}
+	nav ul li a {
+		padding: 20px 15px;
+	}
+	
+	/* MAIN PRODUCT PAGE */
+	.flex-item-product-page{
+		width: 200px;
+		height: auto;
+	}
+	.flex-item-product-page-extra {
+		width: 200px;
+		height: auto;
+	}
+		
+		h4 {
+			padding: 15px 0 10px 0;
+		}
+	
+		
+	
+	/*PRODUCT PAGES*/
+	
+
+	.flex-item {
+		width: 200px;
+		height: 500px;
+	}
+	.flex-item-video-games, .flex-item-video-games-ds {
+		height: 650px;
+	}
+		.product-img {
+			height: 193px;
+		}
+			.product-img-wallet {
+				height: 133px;
+			}
+			.product-img-video-games-ds {
+				height: 173px;	
+			}
+		.product-title {
+			height: 75px;
+		}
+			.product-title-wallet {
+				height: 100px;
+			}
+		.product-bullets {
+			height: 140px;
+		}
+			.product-bullets-ebk {
+				height: 165px;
+			}
+			.product-bullets-video-games, .product-bullets-video-games-ds {
+				height: 200px;
+			}
+		
+	
+	.flex-item-small{
+		display: block;
+		padding: 5px;
+		width: 200px;
+		height: 500px;
+		text-align: left;
+	}
+	
+	.flex-item-medium {
+		display: none;
+	}
+	
+	
+	/* CONTACT PAGE */
+
+	#container {
+		width: 98%;
+	}
+		#container label {
+			width: 100%;
+			display: block;
+			text-align: left;
+		}
+		#container input, #container textarea {
+			width: 100%;
+		}
+		#container .rightLabel li div {
+			width: 98%;
+		}
+		#container .rightLabel li span {
+			width: 48%;
+		}
+		#container .rightLabel li span #Field1, #container .rightLabel li span #Field2 {
+			width: 100%;
+		}
+		#container #saveForm {
+			width: 80px;
+		}
+		
+
+}	
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+		/* PORTRAIT */
+		
+@media (max-width: 400px) {
+	
+	/* HEADER LOGO */
+	.page-wrap {
+		width: 96%;
+	}
+	.header {
+		margin: 0 auto;
+		width: 300px;
+		height: auto;
+	}
+	.div-header {
+		height: auto;
+	}
+	
+	
+	/* NAVIGATION */
+	nav ul li:hover > ul {
+		display: none;
+	}
+	nav ul li a {
+		padding: 20px 7px;
+	}
+	
+	/* MAIN PRODUCT PAGE */
+	.flex-item-product-page{
+		width: 90%;
+		height: auto;
+		padding: 10px 5px;
+	}
+		.flex-item-product-page-extra {
+			display: none;
+		}	
+		h4 {
+			padding: 15px 0 10px 0;
+		}
+	
+	/*PRODUCT PAGES*/
+	.flex-item-video-games, .flex-item-video-games-ds {
+		height: 700px;
+	}
+		.product-bullets-video-games, .product-bullets-video-games-ds {
+			height: 200px;
+		}
+	.flex-item-small{
+		display: none;
+	}
+	.flex-item-medium {
+		display: none;
+	}
+		
+	
+	
+	/* CONTACT PAGE */
+
+	#container {
+		width: 98%;
+	}
+		#container label {
+			width: 100%;
+			display: block;
+			text-align: left;
+		}
+		#container input, #container textarea {
+			width: 100%;
+		}
+		#container .rightLabel li div {
+			width: 98%;
+		}
+		#container .rightLabel li span {
+			width: 48%;
+		}
+		#container .rightLabel li span #Field1, #container .rightLabel li span #Field2 {
+			width: 100%;
+		}
+		#container #saveForm {
+			width: 80px;
+		}
+		
+		
+}
+	

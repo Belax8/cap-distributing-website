@@ -306,8 +306,6 @@
 				</div> <!-- End buy-button -->	
 			</li>
 			
-			<li class="flex-item-small"></li>
-			
 		</ul>
 	
 	</div> <!-- End page-wrap -->

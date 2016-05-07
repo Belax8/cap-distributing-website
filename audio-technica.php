@@ -20,7 +20,7 @@
 		<ul class="flex-container">
 			
 			<li class="flex-item flex-item-audio-technica">
-				<div class="product-img product-img-audio-technica">
+				<div class="product-img product-img-audio-technica sold-out">
 					<img src="./images/audio-technica/anc70.jpg" alt="Black Headphone ANC70" >
 				</div> <!-- End product-img -->
 				<div class="product-title product-title-audio-technica">

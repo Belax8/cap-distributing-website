@@ -223,13 +223,23 @@ h1 {
 				.on-sale:before {
 					content: "";
 					position: absolute;
-					background: url('/images/cap/on-sale-ribbon.png') no-repeat;
+					background: url('/images/cap/on-sale-ribbon-v43.png') no-repeat;
 					width: 100px;
 					height: 100px;
-					top: -2px;
-					right: -4px;
+					top: 1px;
+					right: -9px;
 					z-index: 500;
 				}
+				.sold-out:before {
+					content: "";
+					position: absolute;
+					background: url('/images/cap/sold-out-ribbon-v42.png') no-repeat;
+					width: 100px;
+					height: 100px;
+					top: 1px;
+					right: -9px;
+					z-index: 500;
+				}	
 				.product-img img {
 					height: 100%; 
 					width: 100%;

@@ -1,4 +1,5 @@
-	
+	/* --------------------------- MAIN CSS ------------------------ */
+
 	/* BASIC CONTENT */
 * {
 	margin: 0;
@@ -37,7 +38,7 @@ p {
 	width: 500px;
 	height: 125px;
 }
-	
+
 img.header-logo {
 	display: block;
 }
@@ -49,7 +50,7 @@ img.header-logo {
 	/* NAV */
 nav {
 	margin: 0 0 25px 0;
-	text-align: center; 
+	text-align: center;
 	background: #0091ce;
 	z-index: 700;
 }
@@ -70,8 +71,8 @@ nav {
 		z-index: 700;
 	}
 	nav ul {
-		background: #0091ce; 
-		border-radius: 8px;  
+		background: #0091ce;
+		border-radius: 8px;
 		list-style: none;
 		position: relative;
 		display: inline-table;
@@ -94,20 +95,20 @@ nav {
 				color: #fff;
 			}
 	nav ul li a {
-		display: block; 
+		display: block;
 		padding: 20px 40px;
-		color: white; 
+		color: white;
 		text-decoration: none;
 	}
 	nav ul ul {
-		background: #5f6975; 
-		border-radius: 0px; 
+		background: #5f6975;
+		border-radius: 0px;
 		padding: 0;
-		position: absolute; 
+		position: absolute;
 		top: 100%;
 	}
 	nav ul ul li {
-		float: none; 
+		float: none;
 		border-top: 1px solid #6b727c;
 		border-bottom: 1px solid #575f6a;
 		position: relative;
@@ -115,19 +116,19 @@ nav {
 		nav ul ul li a {
 			padding: 15px 40px;
 			color: #fff;
-		}	
+		}
 			nav ul ul li a:hover {
 				background: #4b545f;
 			}
 	nav ul ul ul {
-		position: absolute; 
-		left: 100%; 
+		position: absolute;
+		left: 100%;
 		top:0;
-	}	
+	}
 
 
 
-	
+
 	/* MAIN HEADER FOR EACH PAGE */
 h1 {
 	text-align: center;
@@ -137,10 +138,10 @@ h1 {
 		color: black;
 		text-decoration: none;
 	}
-	
-	
-	
-	
+
+
+
+
 	/* MAIN PRODUCT PAGE */
 .flex-container-product-page{
 	padding: 0;
@@ -155,7 +156,7 @@ h1 {
 	flex-wrap: wrap;
 	-webkit-flex-flow: row wrap;
 	justify-content: space-around;
-}	
+}
 	.flex-item-product-page{
 		padding: 5px;
 		width: 48%;
@@ -167,7 +168,7 @@ h1 {
 		width: 48%;
 		height: 500px;
 	}
-		
+
 		.flex-item-product-page img {
 			border: 1px solid black;
 			width: 100%;
@@ -181,16 +182,16 @@ h1 {
 				color: black;
 				text-decoration: none;
 			}
-		
-	
-	
-	
+
+
+
+
 	/* PRODUCT PAGES */
 .product-logo{
 	width: 300px;
 	display: block;
 	margin: 0 auto 10px auto;
-}		
+}
 .flex-container {
 	padding: 0;
 	margin: 0;
@@ -204,7 +205,7 @@ h1 {
 	flex-wrap: wrap;
 	-webkit-flex-flow: row wrap;
 	justify-content: space-around;
-}	
+}
 	.flex-item {
 		padding: 5px;
 		width: 300px;
@@ -216,7 +217,7 @@ h1 {
 			margin: 5px 0;
 		}
 			.product-img{
-				width: 100%; 
+				width: 100%;
 				height: 290px;
 				border: 1px solid black ;
 			}
@@ -239,9 +240,9 @@ h1 {
 					top: 1px;
 					right: -9px;
 					z-index: 500;
-				}	
+				}
 				.product-img img {
-					height: 100%; 
+					height: 100%;
 					width: 100%;
 				}
 				.product-img-wallet{
@@ -262,7 +263,7 @@ h1 {
 						border: 1px solid black;
 					}
 			.product-title{
-				width: 100%; 
+				width: 100%;
 				height: 40px;
 			}
 				.product-title-wallet{
@@ -272,9 +273,9 @@ h1 {
 				h2 {
 					font-size: 110%;
 					margin: 5px 0 10px 0;
-				}	
+				}
 			.product-bullets{
-				width: 100%; 
+				width: 100%;
 				height: 120px;
 			}
 				.product-bullets-concert-shirts {
@@ -292,12 +293,12 @@ h1 {
 					fill: white;
 				}
 				.buy-button{
-					width: 100%; 
+					width: 100%;
 					height: 50px;
 				}
 	.flex-item-small {
 		display: none;
-	}		
+	}
 	.flex-item-medium {
 		padding: 5px;
 		width: 300px;
@@ -308,13 +309,13 @@ h1 {
 	}
 
 
-	
-	
+
+
 	/* NEWS HEADERS */
 h3 {
 	size: 100%;
 	margin: 0 0 5px 0;
-}	
+}
 	h5{
 		size: 50%;
 		color: #8C8C8C;
@@ -322,7 +323,7 @@ h3 {
 	}
 .news-info {
 	min-height: 170px;
-}	
+}
 	.news-info p:last-of-type {
 		padding: 0 0 40px 0;
 	}
@@ -347,18 +348,18 @@ h1#contact-head {
 }
 p#contact-p {
 	padding: 0 0 30px 0;
-}	
-	
-	
-	
-	
+}
+
+
+
+
 	/* FOOTER */
 footer {
 	background: #777777;
 	text-align: center;
 	margin: 10px 0 0 0;
 	padding: 10px 0;
-}	
+}
 	footer a:link, footer a:visited {
 		color: black;
 		text-decoration: none;
@@ -370,20 +371,20 @@ footer {
 	footer p {
 		padding: 10px;
 	}
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 
 	/* LARGE SCREENS */
 @media (min-width: 1567px) {
 	.flex-item-small {
 		display: none;
 	}
-	
+
 	.flex-item-large {
 		display: block;
 		padding: 5px;
@@ -394,8 +395,223 @@ footer {
 	#container {
 		margin: 50px auto;
 	}
-}	
+}
+
+
+
+/* --------------------------- MOBILE CSS ------------------------ */
+
+
+	 /* LANDSCAPE */
+
+@media (min-width: 401px) and (max-width: 800px) {
+
+ /* HEADER LOGO */
+ .page-wrap {
+	 width: 90%;
+ }
+ .header {
+	 margin: 0 auto;
+	 width: 300px;
+	 height: auto;
+ }
+ .div-header {
+	 height: auto;
+ }
+
+
+ /* NAVIGATION */
+ nav ul li:hover > ul {
+	 display: none;
+ }
+ nav ul li a {
+	 padding: 20px 15px;
+ }
+
+ /* MAIN PRODUCT PAGE */
+ .flex-item-product-page{
+	 width: 200px;
+	 height: auto;
+ }
+ .flex-item-product-page-extra {
+	 width: 200px;
+	 height: auto;
+ }
+
+	 h4 {
+		 padding: 15px 0 10px 0;
+	 }
+
+
+
+ /*PRODUCT PAGES*/
+
+
+ .flex-item {
+	 width: 200px;
+	 height: 500px;
+ }
+ .flex-item-video-games, .flex-item-video-games-ds {
+	 height: 650px;
+ }
+	 .product-img {
+		 height: 193px;
+	 }
+		 .product-img-wallet {
+			 height: 133px;
+		 }
+		 .product-img-video-games-ds {
+			 height: 173px;
+		 }
+	 .product-title {
+		 height: 75px;
+	 }
+		 .product-title-wallet {
+			 height: 100px;
+		 }
+	 .product-bullets {
+		 height: 140px;
+	 }
+		 .product-bullets-ebk {
+			 height: 165px;
+		 }
+		 .product-bullets-video-games, .product-bullets-video-games-ds {
+			 height: 200px;
+		 }
+
+
+ .flex-item-small{
+	 display: block;
+	 padding: 5px;
+	 width: 200px;
+	 height: 500px;
+	 text-align: left;
+ }
+
+ .flex-item-medium {
+	 display: none;
+ }
+
+
+ /* CONTACT PAGE */
+
+ #container {
+	 width: 98%;
+ }
+	 #container label {
+		 width: 100%;
+		 display: block;
+		 text-align: left;
+	 }
+	 #container input, #container textarea {
+		 width: 100%;
+	 }
+	 #container .rightLabel li div {
+		 width: 98%;
+	 }
+	 #container .rightLabel li span {
+		 width: 48%;
+	 }
+	 #container .rightLabel li span #Field1, #container .rightLabel li span #Field2 {
+		 width: 100%;
+	 }
+	 #container #saveForm {
+		 width: 80px;
+	 }
+
+
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
 
 
 
 
+	 /* PORTRAIT */
+
+@media (max-width: 400px) {
+
+ /* HEADER LOGO */
+ .page-wrap {
+	 width: 96%;
+ }
+ .header {
+	 margin: 0 auto;
+	 width: 300px;
+	 height: auto;
+ }
+ .div-header {
+	 height: auto;
+ }
+
+
+ /* NAVIGATION */
+ nav ul li:hover > ul {
+	 display: none;
+ }
+ nav ul li a {
+	 padding: 20px 7px;
+ }
+
+ /* MAIN PRODUCT PAGE */
+ .flex-item-product-page{
+	 width: 90%;
+	 height: auto;
+	 padding: 10px 5px;
+ }
+	 .flex-item-product-page-extra {
+		 display: none;
+	 }
+	 h4 {
+		 padding: 15px 0 10px 0;
+	 }
+
+ /*PRODUCT PAGES*/
+ .flex-item-video-games, .flex-item-video-games-ds {
+	 height: 700px;
+ }
+	 .product-bullets-video-games, .product-bullets-video-games-ds {
+		 height: 200px;
+	 }
+ .flex-item-small{
+	 display: none;
+ }
+ .flex-item-medium {
+	 display: none;
+ }
+
+
+
+ /* CONTACT PAGE */
+
+ #container {
+	 width: 98%;
+ }
+	 #container label {
+		 width: 100%;
+		 display: block;
+		 text-align: left;
+	 }
+	 #container input, #container textarea {
+		 width: 100%;
+	 }
+	 #container .rightLabel li div {
+		 width: 98%;
+	 }
+	 #container .rightLabel li span {
+		 width: 48%;
+	 }
+	 #container .rightLabel li span #Field1, #container .rightLabel li span #Field2 {
+		 width: 100%;
+	 }
+	 #container #saveForm {
+		 width: 80px;
+	 }
+
+
+}
+ 

@@ -10,28 +10,27 @@
 	<meta name="robots" content="index, follow">
 
 	<!-- Wufoo CSS -->
-	<link href="css/structure.css" rel="stylesheet">
-	<link href="css/form.css" rel="stylesheet">
-	
+	<link href="css/wufoo.css" rel="stylesheet">
+
 	<!-- Main CSS -->
 	<?php include_once("head.html"); ?>
-	
+
 	<!-- Wufoo JavaScript -->
 	<script src="scripts/wufoo.js"></script>
-	
+
 </head>
 <body id="public">
-	
+
 	<?php include_once("cap-logo.html"); ?>
-	
+
 	<?php include_once("nav.html"); ?>
-	
+
 	<div class="page-wrap">
 
 		<h1 id="contact-head"> Contact Us</h1>
-		
+
 		<p id="contact-p">We appreciate your opinion! Please contact us with any comments or concerns. We will get back to you as soon as we can.</p>
-		
+
 		<div id="container" class="ltr">
 
 			<h1 id="logo">
@@ -39,7 +38,7 @@
 			</h1>
 
 			<form id="form1" name="form1" class="wufoo rightLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://capdistributing.wufoo.com/forms/zqp8l6b0ffizvq/#public">
-	  
+
 				<ul>
 					<li id="foli1" class="notranslate      ">
 						<label class="desc" id="title1" for="Field1">
@@ -74,7 +73,7 @@
 							<textarea id="Field4" name="Field4"	class="field textarea medium" spellcheck="true"	rows="10" cols="50"	tabindex="4" onkeyup="" required  ></textarea>
 
 						</div>
-					</li> 
+					</li>
 					<li class="buttons ">
 						<div>
 							<input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Submit" /></div>
@@ -87,7 +86,7 @@
 					</li>
 				</ul>
 			</form>
-	 
+
 		</div><!--container-->
 
 		<a class="powertiny" href="http://www.wufoo.com/" title="Powered by Wufoo" style="display:block !important;visibility:visible !important;text-indent:0 !important;position:relative !important;height:auto !important;width:95px !important;overflow:visible !important;text-decoration:none;cursor:pointer !important;margin:0 auto !important">
@@ -96,8 +95,8 @@
 		</a>
 
 	</div> <!-- End page-wrap -->
-	
+
 	<?php include_once("footer.html"); ?>
-	
+
 </body>
 </html>
